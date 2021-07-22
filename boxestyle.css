@@ -1,0 +1,13 @@
+.up {border:2px solid blue;
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px; margin-bottom:20px;
+
+}
+.up_box {width:100px; height:100px;background-color: blue; margin:15px;}
+.bottom_box {width:100px; height:100px;background-color: purple; margin:15px;}
+
+.bottom { border:2px solid blue;background-color:red;  display:flex;
+    justify-content: space-around;
+    justify-content: space-around;
+    margin-top:20px; margin-bottom:20px;}
