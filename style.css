@@ -1,6 +1,6 @@
 .holder {width:80%;
   margin-left:auto; margin-right:auto;
- border:3px solid red;
+ /*border:3px solid red;*/
   margin-top:0;
 display:flex; 
 flex-wrap:wrap;
@@ -9,25 +9,27 @@ flex-wrap:wrap;
 header {width:100%;
 border-top:5px solid black;}
   
-}
+
 .headpic {}
 img {width:100%;}
 .hcite {margin:0;
   position:absolute;top:250px;left:320Px;  
 }
 .mcite {width:60%;margin-left:20%; margin-right:auto;
-  border:2px solid red;
+  /*border:2px solid red;*/
 }
 p.l {margin:0; padding:0;
 font-family: 'Abril Fatface', cursive;
  color:#222;
   font-size:48px;
- border:3px solid red;}
-p.b { border:3px solid red;
-  margin:0;padding:0;
+ /*border:3px solid red;}*/
+}
+p.b
+ { /*border:3px solid red;*/
+  margin: 0; padding: 0;
   font-family: 'Abril Fatface', cursive;
- color:#222;
-  font-size:82px;
+ color: #222;
+  font-size: 82px;
   
 }
 
@@ -39,7 +41,7 @@ p.text_little {
   font-size:1em;padding:0;margin-botom:15px;;
 }
 span {font-weight:800;}
-.top { border:3px solid red;
+.top { /*border:3px solid red;*/
     width:50%; margin-left:25%; margin-right:auto;
  
  }
