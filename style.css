@@ -1,6 +1,6 @@
 .holder {width:80%;
   margin-left:auto; margin-right:auto;
- /*border:3px solid red;*/
+ 
   margin-top:0;
 display:flex; 
 flex-wrap:wrap;
