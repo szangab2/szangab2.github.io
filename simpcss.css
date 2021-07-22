@@ -1,1 +1,5 @@
-.big {color:blue;}
+.big {color:blue;margin-top:20px; margin-bottom:20px}
+.asteroid:not(p) {font-weight: bolder;}
+p {background-color: yellow;width:200px;}
+.b326, #b325 {border:1px solid green}
+div {width: 200px;}
