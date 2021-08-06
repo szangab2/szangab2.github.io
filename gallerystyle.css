@@ -3,3 +3,4 @@ body {background-color: grey;}
 .arrows {width: 50px;padding:15px;}
 .arrows.right {transform: rotate(0.5turn)}
 .button:hover {opacity:0.4;}
+
