@@ -1,1 +1,5 @@
 body {background-color: grey;}
+.container {margin:0 auto;margin-top:100px; background-color: lightgray; box-shadow: 3px 3px 3px rgba(170, 167, 167, 0.746);width:900px;display:flex;align-items: center;}
+.arrows {width: 50px;padding:15px;}
+.arrows.right {transform: rotate(0.5turn)}
+.button:hover {opacity:0.3;}
