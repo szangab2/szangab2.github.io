@@ -26,7 +26,7 @@ let data0 = {
   let data5 = {
     photo: './pict/house5.jpg',
     title: 'A ház nagy könyvtárszobával',
-    description: 'Azt képzelem, ebben a házban a látogatónak elsőként a királynőtől adományozott lovagi cím ötlik szemébe.. A könyvtárban veretes Shakespeare-kötetek, s hozzá finom earl grey-t szolgálnak fel, s időnként felhív a british PM.....'
+    description: 'Azt képzelem, ebben a házban elsőként a királynőtől adományozott lovagi cím ötlik szemünkbe.. A könyvtárban Shakespeare-kötetek, earl grey-t szolgálnak fel, s időnként felhív a british PM.....'
   };
   let data6 = {
     photo: './pict/house6.jpg',

@@ -1,8 +1,9 @@
 body {background-color: grey;}
 #headtitle {text-align: center;}
-.container {margin:0 auto;margin-top:100px; background-color: lightgray; box-shadow: 3px 3px 3px rgba(170, 167, 167, 0.746);width:900px; display:flex;align-items: center;}
+.container {margin:0 auto;margin-top:100px; background-color: lightgray; box-shadow: 3px 3px 3px rgba(170, 167, 167, 0.746);width:900px; height:auto; display:flex;align-items: center;}
 .arrows {width: 50px;padding:15px;height:auto;}
 .arrows.right {transform: rotate(0.5turn)}
+#photo {width:800px; height:507px;}
 .button:hover {opacity:0.4;}
 .mid {display:flex;flex-wrap: wrap;}
 .pic{float:left; position:relative;}
