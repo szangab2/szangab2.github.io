@@ -1,6 +1,10 @@
 body {background-color: grey;}
-.container {margin:0 auto;margin-top:100px; background-color: lightgray; box-shadow: 3px 3px 3px rgba(170, 167, 167, 0.746);width:900px;display:flex;align-items: center;}
-.arrows {width: 50px;padding:15px;}
+.container {margin:0 auto;margin-top:100px; background-color: lightgray; box-shadow: 3px 3px 3px rgba(170, 167, 167, 0.746);width:900px; display:flex;align-items: center;}
+.arrows {width: 50px;padding:15px;height:auto;}
 .arrows.right {transform: rotate(0.5turn)}
 .button:hover {opacity:0.4;}
-
+.mid {display:flex;flex-wrap: wrap;}
+.pic{float:left; position:relative;}
+.description {background-color:rgba(128,128,128, 0.8); width:800px;position: absolute; top:450px; z-index:1; }
+h1{color:white;}
+p{color:lightgray;}
