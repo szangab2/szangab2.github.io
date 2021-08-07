@@ -10,3 +10,5 @@ body {background-color: grey;}
 .description {background-color:rgba(128,128,128, 0.8); width:800px;position: absolute; top:550px; z-index:1; }
 h1{color:white;}
 p{color:lightgray;}
+.thumbsholder{width:800px; margin:0 auto; margin-top:50px;display:flex;justify-content: space-between;}
+.thum {border:5px groove lightgray; box-shadow: 3px 3px 3px black;}
