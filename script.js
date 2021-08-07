@@ -7,7 +7,23 @@ let data = {
     photo: './pict/house1.jpg',
     title: 'A sziklára épült szürke ház',
     description: 'Ez a ház nekem úgy tűnik fel, mintha erős belövések után lennénk... After heavy artillery fire..'
-  };
-  $('#photo').attr('src', data1.photo);
-  $('#photo-title').text( data1.title);
-  $('#photo-description').text(data1.description) ;
+  }; 
+  let currentPhoto = 0;
+let imagesData = [data,data1];
+  let loadPhoto = (photoNumber) => {
+    $('#photo').attr('src', imagesData[photoNumber].photo);
+    $('#photo-title').text(imagesData[photoNumber].title);
+  $('#photo-description').text(imagesData[photoNumber].description) ;
+  }
+  
+  loadPhoto(currentPhoto);
+  
+  $('#right-arrow').click(() => {
+    currentPhoto++;
+    loadPhoto(currentPhoto);
+  })
+
+  $('#left-arrow').click(() => {
+    currentPhoto--;
+    loadPhoto(currentPhoto);
+  })
