@@ -13,11 +13,29 @@ let data0 = {
     title: 'A kék tetős ház',
     description: 'Tipikus amerikai családi ház... Ja, figyeld meg, focipálya van a ház mögött... Mint Bőrkészítő Futsal Petikéénél..'
   };
-
-
+  let data3 = {
+    photo: './pict/house3.jpg',
+    title: 'A göcseji ház',
+    description: 'Nyilván egy falumúzeumban készült. Nádtetős... Ilyenkor biztosan jó hűvös...'
+  };
+  let data4 = {
+    photo: './pict/house4.jpg',
+    title: 'Egy gazdag pasi háza',
+    description: 'Hm, jó lenne ide hazaérkezni a munka után... Főleg, ha a hátsó traktusban egy úszómödanszé van, dzsakuzzival és csini lányokkal..A house with pretty girls'
+  };
+  let data5 = {
+    photo: './pict/house5.jpg',
+    title: 'A ház nagy könyvtárszobával',
+    description: 'Azt képzelem, ebben a házban a látogatónak elsőként a királynőtől adományozott lovagi cím ötlik szemébe.. A könyvtárban veretes Shakespeare-kötetek, s hozzá finom earl grey-t szolgálnak fel, s időnként felhív a british PM.....'
+  };
+  let data6 = {
+    photo: './pict/house6.jpg',
+    title: 'A zöld ház',
+    description: 'Azé" kipróbálnám... Gondolom, a garázsban egy Tesla viháncol; a fűtés a Föld hőjéből van; a rezsiszámla meg nulla, hogy megpukkadjon Németh Zsírszalonna Szilárd pubi....'
+  };
 
   let currentPhoto = 0;
-let imagesData = [data0,data1, data2];
+let imagesData = [data0,data1, data2,data3, data4,data5,data6];
   let loadPhoto = (photoNumber) => {
     $('#photo').attr('src', imagesData[photoNumber].photo);
     $('#photo-title').text(imagesData[photoNumber].title);
@@ -27,11 +45,19 @@ let imagesData = [data0,data1, data2];
   loadPhoto(currentPhoto);
   
   $('#right-arrow').click(() => {
+      if (currentPhoto<6){
     currentPhoto++;
-    loadPhoto(currentPhoto);
+    $('#headtitle').text('Egy szép ház');
+    loadPhoto(currentPhoto);}
+    else { $('#headtitle').text('No more pictures');
+          }
   })
 
   $('#left-arrow').click(() => {
+      if (currentPhoto>0){
+          $('#headtitle').text('Egy szép ház');
     currentPhoto--;
-    loadPhoto(currentPhoto);
+    loadPhoto(currentPhoto);}
+    else{ $('#headtitle').text('No more pictures back');
+  currentPhoto=0;}
   })
