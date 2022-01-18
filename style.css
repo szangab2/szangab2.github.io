@@ -6,7 +6,7 @@ display:flex;
 flex-wrap:wrap;
   
 }
-.own {text-align: center; padding:2rem; background-color:blue; font-weight: bolder; color:blue;  box-shadow: 3px 3px 5px black;}
+.own {text-align: center; padding:2rem; background-color:blue; font-weight: bolder; color:white;  box-shadow: 3px 3px 5px black;}
 header {width:100%;
 border-top:5px solid black;}
   .navbar {background-color:lightslategray; height:4rem;border:2px solid black; display:flex;justify-content:space-around; align-items: center;}
