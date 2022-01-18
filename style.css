@@ -7,6 +7,7 @@ flex-wrap:wrap;
   
 }
 .own {width:100%; position:fixed; z-index:3;margin-top:-15px;text-align: center; padding:2rem; background-color:blue; font-weight: bolder; color:white;  box-shadow: 3px 10px 15px black;}
+.own:hover{background-color:green;}
 header {width:100%;
 border-top:5px solid black;}
   .navbar {background-color:lightslategray; height:4rem;border:2px solid black; display:flex;justify-content:space-around; align-items: center;}
